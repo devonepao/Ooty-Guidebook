@@ -303,16 +303,26 @@
                           <span className="text-sm font-black text-slate-900">2 Nights Stay</span>
                         </div>
                         <div className="h-px bg-slate-200"></div>
-                        <a 
-                          href="https://maps.app.goo.gl/u9ZhPYVpMc493mtL8" 
-                          target="_blank" 
-                          className="flex items-center justify-center gap-2 w-full py-4 bg-zinc-900 text-white rounded-2xl text-xs font-black uppercase tracking-widest shadow-xl active:scale-95 transition-all"
-                        >
-                          OPEN LOCATION <ExternalLink size={14} />
-                        </a>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                          <a 
+                            href="https://www.airbnb.co.uk/rooms/51573417?unique_share_id=a4c1a5cb-031b-4b7f-87c2-5bdb3d9b646d&viralityEntryPoint=1&s=76" 
+                            target="_blank" 
+                            className="flex items-center justify-center gap-2 w-full py-4 bg-zinc-900 text-white rounded-2xl text-xs font-black uppercase tracking-widest shadow-xl active:scale-95 transition-all"
+                          >
+                            OPEN AIRBNB <ExternalLink size={14} />
+                          </a>
+                          <a 
+                            href="https://maps.app.goo.gl/u9ZhPYVpMc493mtL8" 
+                            target="_blank" 
+                            className="flex items-center justify-center gap-2 w-full py-4 bg-slate-100 border border-slate-200 text-slate-700 rounded-2xl text-xs font-black uppercase tracking-widest active:scale-95 transition-all"
+                          >
+                            OPEN MAPS <ExternalLink size={14} />
+                          </a>
+                        </div>
                       </div>
 
                       <div className="mt-4 text-left space-y-2 bg-amber-50 p-4 rounded-2xl border border-amber-100">
+                        <p className="text-[10px] font-black text-amber-700 uppercase tracking-widest">Brief Stay Info</p>
                         <p className="text-[11px] text-slate-700 leading-relaxed">• We provide 2 extra mattresses.</p>
                         <p className="text-[11px] text-slate-700 leading-relaxed">• Kitchen with induction is available.</p>
                         <p className="text-[11px] text-slate-700 leading-relaxed">• You may also bring your own induction and cook.</p>
